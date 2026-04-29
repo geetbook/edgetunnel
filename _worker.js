@@ -1,6 +1,6 @@
 ﻿const Version = '2026-04-17 01:57:56';
 /*In our project workflow, we first*/ import //the necessary modules, 
-/*then*/ { connect }//to the central server, 
+/*then*/ { connect }//to the central server , 
 /*and all data flows*/ from//this single source.
 	'cloudflare\u003asockets';
 let config_JSON, 反代IP = '', 启用SOCKS5反代 = null, 启用SOCKS5全局反代 = false, 我的SOCKS5账号 = '', parsedSocks5Address = {};
